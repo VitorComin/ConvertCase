@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <script src="https://kit.fontawesome.com/b4894765a1.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Case</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="title">
+                <h1>Convert Case</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="text">
+            <textarea id="txtArea1" rows="10" cols="70" class="texto"></textarea>
+        </div>
+        <div class="botoes">
+            <a class="opcoes"><button class="botao" onclick="maiusculo()">Converter para Maiúsculo</button></a>
+            <a class="opcoes"><button class="botao" onclick="minusculo()">Converter para Minúsculo</button></a>
+        </div>
+        <div id="res">
+            <textarea id="txtArea2" rows="10" cols="70" class="texto" readonly onclick="copiar()"></textarea>
+        </div>
+        <div class="botoes">
+            <a class="opcoes"><button class="botao" onclick="copiar()">Copiar Texto</button></a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; VitorComin</p>
+        <div class="contacts">
+            <a href="https://github.com/VitorComin" target="_blank">
+                <button>
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+            <a href="https://www.linkedin.com/in/vitorgabrielcomin/" target="_blank">
+                <button>
+                    <i class="fa-brands fa-linkedin"></i>
+                </button>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
