@@ -21,6 +21,14 @@ A aplicação consiste em funcionalidades que te permitem transformar o texto es
 
 Há dois botões após o primeiro campo de texto, o "Converter para Maiúsculo" e o "Converter para Minúsculo" que foram estilizados por CSS3. Ao clicar neles, é chamado a função "maiusculo()" ou "minusculo()", que converte o conteúdo da primeira caixa de texto em todo maiúsculo ou todo minúsculo e apresenta na segunda caixa de texto.
 
+![image](https://github.com/VitorComin/ConvertCase/assets/106283734/d4c3b069-c16e-40cc-b239-e7e7e5231262)
+
+
 Caso não haja nada escrito na primeira caixa de texto, ao clicar em um dos botões irá aparecer um alerta informando que não há nada escrito.
 
+![image](https://github.com/VitorComin/ConvertCase/assets/106283734/29599acd-92d4-473b-85fe-31f9239f5159)
+
+
 O botão "Copiar Texto" após a segunda caixa de texto também chama a função "copiar()" quando clicado, que copia o conteúdo da segunda caixa de texto para a Área de Transferência.
+
+![image](https://github.com/VitorComin/ConvertCase/assets/106283734/f994c868-05ca-487e-9d67-b5cedd9577cb)
