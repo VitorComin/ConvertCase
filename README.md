@@ -1,4 +1,4 @@
-# ConvertCase
+# convertCase
 Utilizando HTML5, CSS3 e JavaScript, fiz uma aplicação Web que converte seu texto para maiúsculo ou minúsculo.
 
 ![image](https://github.com/VitorComin/ConvertCase/assets/106283734/414c4416-1324-49b4-bf6d-fb7a7faec4aa)
